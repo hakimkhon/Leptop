@@ -1,0 +1,9 @@
+<h1>Kompyuterlar ro'yxati</h1>
+{% for komp in object_list %}
+    <ul>
+        <li><h1>Nomi: {{komp.name}}</h1></li>
+        <li><h3>Narxi: {{komp.cost}}</h3></li>
+        <li>Sistemasi: {{komp.system}}</li>
+        <li>qisqacha malumot: {{komp.about}}</li>
+    </ul>
+{% endfor %}
